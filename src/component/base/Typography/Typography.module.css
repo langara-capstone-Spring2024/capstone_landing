@@ -1,6 +1,13 @@
-.title1 {
-  font-size: 60px;
-  line-height: 48px;
+.title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.body {
+  font-size: 2rem;
 }
 
 .black {
@@ -12,8 +19,8 @@
 .gray {
   color: var(--gray);
 }
-.light-gray {
-  color: var(--light-gray);
+.lightgray {
+  color: var(--lightgray);
 }
 .error {
   color: var(--error);
