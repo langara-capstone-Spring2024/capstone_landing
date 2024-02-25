@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./Home.module.css";
+import styles from "./Home.module.css";
 
 const HomeView = (props) => {
   const {} = props;
 
-  return <></>;
+  return <>Home</>;
 };
 
 export default HomeView;
