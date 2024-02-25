@@ -1,0 +1,20 @@
+.title1 {
+  font-size: 60px;
+  line-height: 48px;
+}
+
+.black {
+  color: var(--black);
+}
+.white {
+  color: var(--white);
+}
+.gray {
+  color: var(--gray);
+}
+.light-gray {
+  color: var(--light-gray);
+}
+.error {
+  color: var(--error);
+}
