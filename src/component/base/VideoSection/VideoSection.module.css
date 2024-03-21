@@ -1,0 +1,8 @@
+.videoContainer {
+  height: 900px;
+  background-color: var(--white-secondary);
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

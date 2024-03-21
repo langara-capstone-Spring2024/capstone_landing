@@ -1,0 +1,22 @@
+.imgContainer {
+  /* background-image: url(./../../../../public/assets/topSection.jpeg);
+  background-size: contain;
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat; */
+}
+
+.titleContainer {
+  text-align: center;
+  padding: 60px;
+  background-color: var(--brand-medium);
+}
+
+.subtitle {
+  margin-top: 10px;
+}
+
+.topContainer {
+  background-color: var(--brand-medium);
+  height: fit-content;
+}

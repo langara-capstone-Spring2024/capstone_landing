@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 5%;
+  max-width: 1600px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.navigation a:hover {
+  color: var(--brand-medium);
+}
+
+.proposalBtn {
+  background-color: var(--brand-medium);
+  color: var(--white-primary);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 38px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+}
+
+.proposalBtn:hover {
+  background-color: #c13c27;
+}

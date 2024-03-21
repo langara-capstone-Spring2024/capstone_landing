@@ -1,0 +1,15 @@
+.teamTitle {
+  text-align: center;
+  display: grid;
+  gap: 11px;
+  margin-bottom: 40px;
+}
+
+.teamCarousel {
+  background-color: var(--white-secondary);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
