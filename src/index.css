@@ -1,7 +1,45 @@
 :root {
+  --primary: #222222;
+  --secondary: #3c3c3c;
   --black: #000000;
-  --white: #ffffff;
-  --gray: #404040;
-  --lightgray: #757575;
-  --error: #f23737;
+  --white-primary: #ffffff;
+  --white-secondary: #f2f2f7;
+  --brand-medium: #e51e35;
+}
+
+body {
+  margin: 0;
+  font-family: "Public Sans";
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("./../../../../public/assets/fonts/PublicSans-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("./../../../../public/assets/fonts/PublicSans-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("./../../../../public/assets/fonts/PublicSans-Bold.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("./../../../../public/assets/fonts/publicSans-semibold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }

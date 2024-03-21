@@ -1,27 +1,53 @@
-.title {
-  font-size: 3rem;
+.title-1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 66px;
 }
 
-.subtitle {
-  font-size: 2rem;
+.title-2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
 }
 
-.body {
-  font-size: 2rem;
+.bodylg {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.bodySm {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+}
+
+.bodySm-bold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
 }
 
 .black {
   color: var(--black);
 }
-.white {
-  color: var(--white);
+
+.white-primary {
+  color: var(--white-primary);
 }
-.gray {
-  color: var(--gray);
+
+.white-secondary {
+  color: var(--white-secondary);
 }
-.lightgray {
-  color: var(--lightgray);
+
+.primary {
+  color: var(--primary);
 }
-.error {
-  color: var(--error);
+
+.secondary {
+  color: var(--secondary);
+}
+
+.brand-medium {
+  color: var(--brand-medium);
 }
