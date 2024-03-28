@@ -43,7 +43,9 @@ const ContactSection = () => {
             />
           </div>
           <button type="submit" className={styles.btnContainer}>
-            Send Message
+            <Typography variant="bodySm" color="white">
+              Send Message
+            </Typography>
           </button>
         </form>
       </div>

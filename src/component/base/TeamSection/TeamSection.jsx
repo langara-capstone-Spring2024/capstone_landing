@@ -26,7 +26,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Don} alt="don" />
           </div>
-          <Typography>Lead Full Stack Developer</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              Lead Full Stack Developer
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Don Cosio
           </Typography>
@@ -52,7 +56,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Guia} alt="guia" />
           </div>
-          <Typography>Full Stack Developer | PM</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              Full Stack Developer | PM
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Guia Chavez
           </Typography>
@@ -78,7 +86,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Yuhwan} alt="yuhwan" />
           </div>
-          <Typography>Full Stack Developer</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              Full Stack Developer
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Yuhwan Ban
           </Typography>
@@ -104,7 +116,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Yuki} alt="yuki" />
           </div>
-          <Typography>Full Stack Developer</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              Full Stack Developer
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Hoi Yan Cheng
           </Typography>
@@ -130,7 +146,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Monica} alt="monica" />
           </div>
-          <Typography>UX Lead</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              UX Lead
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Monica Esquivel
           </Typography>
@@ -156,7 +176,11 @@ const TeamSection = (props) => {
           <div>
             <img src={JB} alt="jb" />
           </div>
-          <Typography>UI Lead</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              UI Lead
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             JB Hernandez
           </Typography>
@@ -182,7 +206,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Cassie} alt="cassie" />
           </div>
-          <Typography>UI/UX Designer</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              UI/UX Designer
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Cassie Hsieh
           </Typography>
@@ -208,7 +236,11 @@ const TeamSection = (props) => {
           <div>
             <img src={Gillian} alt="gillian" />
           </div>
-          <Typography>UI/UX Designer</Typography>
+          <div className={styles.positionContainer}>
+            <Typography variant="positionBody" color="primary">
+              UI/UX Designer
+            </Typography>
+          </div>
           <Typography variant="bodySm" color="gray">
             Gillian Kwok
           </Typography>
