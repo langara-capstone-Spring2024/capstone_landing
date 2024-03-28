@@ -12,8 +12,13 @@ const Header = (props) => {
   return (
     <div className={styles.header}>
       <img src="/assets/logo.png" alt="logo" className={styles.logo} />
-      <div className={styles.hamburger} onClick={toggleMenu}>
-        &#9776;
+      <div
+        className={`${styles.hamburger} ${isMenuOpen ? styles.active : ""}`}
+        onClick={toggleMenu}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
       <nav
         className={`${styles.navigation} ${isMenuOpen ? styles.menuOpen : ""}`}
@@ -39,11 +44,15 @@ const Header = (props) => {
           </Typography>
         </div>
         <div className={styles.navItem}>
-          <button className={styles.proposalBtn} onClick={() => {}}>
-            <Typography variant="bodySm" color="white">
-              View Proposal
-            </Typography>
-          </button>
+          {!isMenuOpen && (
+            <div className={styles.proposalBtnFixed}>
+              <button className={styles.proposalBtn} onClick={() => {}}>
+                <Typography variant="bodySm" color="white">
+                  View Proposal
+                </Typography>
+              </button>
+            </div>
+          )}
         </div>
       </nav>
     </div>

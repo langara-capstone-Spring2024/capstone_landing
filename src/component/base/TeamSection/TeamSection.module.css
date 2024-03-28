@@ -6,6 +6,10 @@
   padding-top: 5%;
 }
 
+.positionContainer {
+  background-color: var(--yellow);
+}
+
 .teamCarousel {
   background-color: var(--white-secondary);
   height: 300px;

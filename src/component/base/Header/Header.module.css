@@ -6,6 +6,12 @@
   background-color: #fff;
   padding: 20px 5%;
   max-width: 1600px;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  z-index: 15;
 }
 
 .navigation {
@@ -42,51 +48,93 @@
   background-color: #c13c27;
 }
 
+/* Header.module.css */
+
 .hamburger {
-  display: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  z-index: 15;
 }
 
-.hamburger .bar {
+.hamburger span {
   display: block;
-  width: 25px;
   height: 3px;
-  background-color: #000;
-  transition: all 0.3s ease;
+  width: 100%;
+  background: black;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease;
 }
 
-/* Transform hamburger into cross */
-.cross .bar:nth-child(1) {
+.hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
 
-.cross .bar:nth-child(2) {
+.hamburger.active span:nth-child(2) {
   opacity: 0;
 }
 
-.cross .bar:nth-child(3) {
+.hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
 }
 
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-    font-size: 40px;
-  }
+.navigation {
+  display: none;
+}
 
-  .navigation {
+.menuOpen {
+  display: block;
+  animation: slideDown 0.3s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.menuClose {
+  animation: slideUp 0.3s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger {
     display: none;
   }
 
-  .menuOpen {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* .menuOpen {
     display: block;
-    position: absolute;
     width: 100%;
     background-color: #fff;
+    top: 60px;
   }
 
   .navItem {
     padding: 10px;
     border-bottom: 1px solid #ccc;
-  }
+  } */
 }
