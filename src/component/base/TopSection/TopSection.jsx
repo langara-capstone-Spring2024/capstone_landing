@@ -8,7 +8,7 @@ const TopSection = (props) => {
     <div className={styles.topContainer}>
       <div className={styles.titleContainer}>
         <Typography variant="title-1" color="white-primary">
-          From Slow Hours to Golden Hours
+          From Slow Hours
         </Typography>
         <Typography variant="title-1" color="white-primary">
           to Golden Hours

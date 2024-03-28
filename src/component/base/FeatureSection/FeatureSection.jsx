@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./FeatureSection.module.css";
 import Typography from "../Typography/Typography";
 import featureImg from "./../../../../public/assets/featureImg.png";
+import featureImg1 from "./../../../../public/assets/featureImg-1.png";
+import featureImg2 from "./../../../../public/assets/featureImg-2.png"
 
 const FeatureSection = (props) => {
   return (
@@ -19,7 +21,7 @@ const FeatureSection = (props) => {
         <div>
           <img src={featureImg} className={styles.image} />
         </div>
-        <div className={styles.featureImgContainer}></div>
+        <img src={featureImg2} className={styles.image} />
       </div>
       <div className={styles.featureText}>
         <div className={styles.featureTitle}>
@@ -33,10 +35,8 @@ const FeatureSection = (props) => {
         </Typography>
       </div>
       <div className={styles.featureDisplay}>
-        <div>
-          <img src={featureImg} className={styles.image} />
-        </div>
-        <div className={styles.featureImgContainer}></div>
+        <img src={featureImg} className={styles.image} />
+        <img src={featureImg1} className={styles.image} />
       </div>
       <div className={styles.featureText}>
         <div className={styles.featureTitle}>

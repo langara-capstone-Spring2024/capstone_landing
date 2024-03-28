@@ -1,11 +1,3 @@
-.imgContainer {
-  /* background-image: url(./../../../../public/assets/topSection.jpeg);
-  background-size: contain;
-  width: 100%;
-  height: 60vh;
-  background-repeat: no-repeat; */
-}
-
 .titleContainer {
   text-align: center;
   padding: 60px;
@@ -19,4 +11,10 @@
 .topContainer {
   background-color: var(--brand-medium);
   height: fit-content;
+}
+
+@media (max-width: 768px) {
+  .titleContainer {
+    padding: 5%;
+  }
 }

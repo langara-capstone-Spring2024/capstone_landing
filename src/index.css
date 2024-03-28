@@ -2,9 +2,14 @@
   --primary: #222222;
   --secondary: #3c3c3c;
   --black: #000000;
+  --gray: #555555;
+  --light-gray: #696969;
   --white-primary: #ffffff;
   --white-secondary: #f2f2f7;
   --brand-medium: #e51e35;
+  --neutrals: #111022;
+  --border-neutral: #D4D4D4;
+  --accent-medium: #FF9B00;
 }
 
 body {
