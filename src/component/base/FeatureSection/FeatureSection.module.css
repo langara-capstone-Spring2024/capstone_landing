@@ -1,24 +1,21 @@
 .featureContainer {
-  padding: 60px 15%;
+  padding: 60px 15% 40px 15%;
+  margin: auto;
+  display: grid;
+  max-width: 1200px;
 }
 
 .featureDisplay {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin-bottom: 5%;
-}
-
-.featureImgContainer {
-  min-width: 560px;
-  min-height: 281px;
-  background-color: var(--white-secondary);
-  border-radius: 32px;
+  margin-bottom: 40px;
 }
 
 .featureText {
   margin-bottom: 40px;
-  width: 80%;
+  margin-top: 40px;
+  max-width: 700px;
 }
 
 .featureTitle {
@@ -31,4 +28,25 @@
 
 .image {
   border-radius: 5%;
+  width: 100%;
+  max-width: 560px;
+  max-height: 681px;
+}
+
+@media (max-width: 768px) {
+  .featureContainer {
+    padding: 60px 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .featureDisplay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .featureContainer {
+    padding: 60px 5%;
+  }
 }

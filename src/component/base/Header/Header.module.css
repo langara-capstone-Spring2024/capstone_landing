@@ -41,3 +41,52 @@
 .proposalBtn:hover {
   background-color: #c13c27;
 }
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+/* Transform hamburger into cross */
+.cross .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.cross .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.cross .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    font-size: 40px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .menuOpen {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .navItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}
