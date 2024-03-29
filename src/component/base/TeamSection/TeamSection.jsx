@@ -114,7 +114,7 @@ const TeamSection = (props) => {
             imageSrc={YuhwanRound}
             bgColor="#3785F9"
             textColor="var(--white-primary)"
-            description="Hotpot, the perfect food for socializing and dining simultaneously.🍲"
+            description="Hotpot, the perfect food for socializing and dining simultaneously 🍲"
             firstName="Yuhwan"
             lastName="Ban"
             role="Full Stack Developer"
@@ -132,8 +132,7 @@ const TeamSection = (props) => {
             imageSrc={JBRound}
             bgColor="#CDB0D7"
             textColor="var(--primary)"
-            description="I love burgers the most. 
-            Especially with bacon!🥓"
+            description="I love all food, I love eating 😋"
             firstName="JB"
             lastName="Hernandez"
             role="UI Lead"
@@ -142,8 +141,7 @@ const TeamSection = (props) => {
             imageSrc={GuiaRound}
             bgColor="#F75252"
             textColor="var(--primary)"
-            description="I love burgers the most. 
-            Especially with bacon!🥓"
+            description="Mac and Cheese is my favourite! 🧀"
             firstName="Guia"
             lastName="Chavez"
             role="Full Stack Developer | PM"
@@ -152,8 +150,7 @@ const TeamSection = (props) => {
             imageSrc={GillianRound}
             bgColor="#494949"
             textColor="var(--white-primary)"
-            description="I love burgers the most. 
-            Especially with bacon!🥓"
+            description="Cannot resist noodle, any kind! 🍜"
             firstName="Gillian"
             lastName="Kwok"
             role="UI/UX Designer"

@@ -18,7 +18,7 @@
 }
 
 .navItem {
-  margin-right: 20px;
+  margin-right: 45px;
 }
 
 .navItem a {
@@ -41,12 +41,6 @@
 .navItem:not(:last-child) a:active {
   color: var(--black);
 }
-
-/* .navItem a:active {
-  text-decoration: underline;
-  text-decoration-color: var(--error);
-  color: var(--black);
-} */
 
 .activeLink {
   color: var(--black);
