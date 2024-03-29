@@ -9,6 +9,9 @@ const ContactSection = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Form submitted with:", { email, name });
+    window.scrollTo(0, 0);
+    setEmail("");
+    setName("");
   };
 
   return (

@@ -22,39 +22,35 @@ body {
 
 @font-face {
   font-family: "Public Sans";
-  src: url("./../../../../public/assets/fonts/PublicSans-Regular.ttf")
-    format("truetype");
+  src: url("/assets/fonts/PublicSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Public Sans";
-  src: url("./../../../../public/assets/fonts/PublicSans-Medium.ttf")
-    format("truetype");
+  src: url("/assets/fonts/PublicSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Public Sans";
-  src: url("./../../../../public/assets/fonts/PublicSans-Bold.ttf")
-    format("truetype");
+  src: url("/assets/fonts/PublicSans-Bold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Public Sans";
-  src: url("./../../../../public/assets/fonts/publicSans-semibold.ttf")
-    format("truetype");
+  src: url("/assets/fonts/publicSans-semibold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TrashHand";
-  src: url("./../../../../public/assets/fonts/TrashHand.ttf") format("truetype");
+  src: url("./assets/fonts/TrashHand.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }

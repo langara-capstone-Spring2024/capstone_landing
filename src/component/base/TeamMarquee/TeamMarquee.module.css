@@ -15,19 +15,24 @@ img {
 }
 
 .teamMarqueeContainer {
-  padding: 50px 36px;
+  padding: 40px 36px;
   border-radius: 16px;
   width: fit-content;
   margin-top: 40px;
-  margin-right: 10px;
+  margin-right: 20px;
   width: 500px;
   height: 230px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
 }
 
-.descriptonContainer {
+.teamMarqueeContainer:hover {
+  transform: rotate(3deg);
+}
+
+.descriptionContainer {
   width: 80%;
 }
 
@@ -35,4 +40,20 @@ img {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .teamMarqueeContainer {
+    width: 249px;
+    height: 364px;
+  }
+
+  .teamFood {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .descriptionContainer {
+    width: 100%;
+  }
 }
