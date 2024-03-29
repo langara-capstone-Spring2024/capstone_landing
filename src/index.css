@@ -8,9 +8,11 @@
   --white-secondary: #f2f2f7;
   --brand-medium: #e51e35;
   --neutrals: #111022;
-  --border-neutral: #D4D4D4;
-  --accent-medium: #FF9B00;
-  --yellow: #FFD84F;
+  --border-neutral: #d4d4d4;
+  --accent-medium: #ff9b00;
+  --yellow: #ffd84f;
+  --link-gray: #a5a5a5;
+  --error: #e6192d;
 }
 
 body {
@@ -52,8 +54,7 @@ body {
 
 @font-face {
   font-family: "TrashHand";
-  src: url("./../../../../public/assets/fonts/TrashHand.ttf")
-    format("truetype");
+  src: url("./../../../../public/assets/fonts/TrashHand.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }

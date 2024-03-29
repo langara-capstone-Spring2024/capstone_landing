@@ -9,6 +9,16 @@ import Gillian from "../../../../public/assets/Gillian.png";
 import Monica from "../../../../public/assets/Monica.png";
 import Cassie from "../../../../public/assets/Cassie.png";
 import JB from "../../../../public/assets/JB.png";
+import TeamMarquee from "../TeamMarquee/TeamMarquee";
+import YukiRound from "../../../../public/assets/Yuki-round.png";
+import YuhwanRound from "../../../../public/assets/Yuhwan-round.png";
+import DonRound from "../../../../public/assets/Don-round.png";
+import GuiaRound from "../../../../public/assets/Guia-round.png";
+import GillianRound from "../../../../public/assets/Gillian-round.png";
+import MonicaRound from "../../../../public/assets/Monica-round.png";
+import JBRound from "../../../../public/assets/JB-round.png";
+import CassieRound from "../../../../public/assets/Cassie-round.png";
+import Marquee from "react-fast-marquee";
 
 const TeamSection = (props) => {
   return (
@@ -264,7 +274,91 @@ const TeamSection = (props) => {
         </div>
       </div>
 
-      <div className={styles.teamCarousel}>Carousel</div>
+      <div className={styles.teamCarousel}>
+        <Marquee pauseOnHover speed={70}>
+          <TeamMarquee
+            imageSrc={YukiRound}
+            bgColor="#FFC42B"
+            textColor="var(--primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Yuki"
+            lastName="Cheng"
+            role="Full Stack Developer"
+          />
+          <TeamMarquee
+            imageSrc={YuhwanRound}
+            bgColor="#3785F9"
+            textColor="var(--white-primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Yuhwan"
+            lastName="Ban"
+            role="Full Stack Developer"
+          />
+          <TeamMarquee
+            imageSrc={MonicaRound}
+            bgColor="#C0E9C9"
+            textColor="var(--primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Monica"
+            lastName="Esquivel"
+            role="UX Lead"
+          />
+          <TeamMarquee
+            imageSrc={JBRound}
+            bgColor="#CDB0D7"
+            textColor="var(--primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="JB"
+            lastName="Hernandez"
+            role="UI Lead"
+          />
+          <TeamMarquee
+            imageSrc={GuiaRound}
+            bgColor="#F75252"
+            textColor="var(--primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Guia"
+            lastName="Chavez"
+            role="Full Stack Developer | PM"
+          />
+
+          <TeamMarquee
+            imageSrc={GillianRound}
+            bgColor="#494949"
+            textColor="var(--white-primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Gillian"
+            lastName="Kwok"
+            role="UI/UX Designer"
+          />
+          <TeamMarquee
+            imageSrc={DonRound}
+            bgColor="#D3D3D3"
+            textColor="var(--primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Don"
+            lastName="Cosio"
+            role="Lead Full Stack Developer"
+          />
+          <TeamMarquee
+            imageSrc={CassieRound}
+            bgColor="#CBFF5E"
+            textColor="var(--primary)"
+            description="I love burgers the most. 
+            Especially with bacon!🥓"
+            firstName="Cassie"
+            lastName="Hsieh"
+            role="UI/UX Designer"
+          />
+        </Marquee>
+      </div>
     </div>
   );
 };

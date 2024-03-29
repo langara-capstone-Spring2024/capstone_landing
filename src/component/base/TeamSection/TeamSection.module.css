@@ -4,6 +4,7 @@
   gap: 11px;
   margin-bottom: 40px;
   padding-top: 5%;
+  padding: 5%;
 }
 
 .positionContainer {
@@ -11,11 +12,6 @@
 }
 
 .teamCarousel {
-  background-color: var(--white-secondary);
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 60px;
 }
 
