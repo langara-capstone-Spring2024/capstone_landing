@@ -32,6 +32,7 @@
   border-radius: 8px;
   border: 1px solid var(--border-neutral);
   box-sizing: border-box;
+  margin-top: 5px;
 }
 
 .emailContainer,
@@ -46,7 +47,7 @@
   color: var(--white-primary);
   border: none;
   border-radius: 8px;
-  padding: 11px 20px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -56,9 +57,11 @@
     min-width: 361px;
     align-items: center;
   }
+
   .formContainer {
     padding: 32px;
   }
+
   .emailContainer,
   .nameContainer {
     width: 100%;
@@ -74,10 +77,12 @@
   .contactContainer {
     padding: 80px 5%;
   }
+
   .formDataContainer {
     min-width: 100%;
     padding: 5px;
   }
+
   .formContainer {
     width: 100%;
   }
