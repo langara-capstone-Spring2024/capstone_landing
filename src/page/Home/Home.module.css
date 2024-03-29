@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--brand-medium);
     color: var(--white-primary);
     border: none;
@@ -29,7 +29,13 @@
     transform: translateX(-50%);
   }
 
-  .proposalBtnFixed:hover{
+  .proposalBtnFixed.hidden {
+    visibility: hidden;
+    pointer-events: none;
+    transition: visibility 0s 0.1s, opacity 0.1s ease-in-out;
+  }
+
+  .proposalBtnFixed:hover {
     background-color: #c13c27;
   }
 }

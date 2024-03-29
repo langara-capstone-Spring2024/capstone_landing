@@ -4,21 +4,10 @@
   gap: 11px;
   margin-bottom: 40px;
   padding-top: 5%;
-  padding: 5%;
-}
-
-.positionContainer {
-  background-color: var(--yellow);
-}
-
-.teamCarousel {
-  margin-bottom: 60px;
+  padding: 5% 5% 0 5%;
 }
 
 .allMembersContainer {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,17 +17,8 @@
   justify-content: center;
 }
 
-.memberContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.socialMediaContainer {
-  display: flex;
-  flex-direction: row;
-  text-decoration: underline;
-  gap: 5px;
+.marqueeContainer {
+  padding-bottom: 100px;
 }
 
 @media (max-width: 768px) {

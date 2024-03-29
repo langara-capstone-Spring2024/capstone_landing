@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./TopSection.module.css";
 import Typography from "../Typography/Typography";
-import topSectionImage from "./../../../../public/assets/topSection.jpeg";
+import topSectionImage from "/assets/topSection.jpeg";
 
 const TopSection = (props) => {
   return (

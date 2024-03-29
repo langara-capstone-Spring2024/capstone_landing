@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./FeatureSection.module.css";
 import Typography from "../Typography/Typography";
-import featureImg from "./../../../../public/assets/featureImg.png";
-import featureImg1 from "./../../../../public/assets/featureImg-1.png";
-import featureImg2 from "./../../../../public/assets/featureImg-2.png"
+import featureImg from "/assets/featureImg.png";
+import featureImg1 from "/assets/featureImg-1.png";
+import featureImg2 from "/assets/featureImg-2.png";
 
 const FeatureSection = (props) => {
   return (
