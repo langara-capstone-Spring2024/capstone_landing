@@ -4,7 +4,7 @@
   height: 84px;
 }
 
-img {
+.teamMarqueeContainer img {
   object-fit: cover;
 }
 
@@ -58,7 +58,7 @@ img {
     width: 100%;
   }
 
-  img,
+  .teamMarqueeContainer img,
   .imageContainer {
     width: 60px;
     height: 60px;
