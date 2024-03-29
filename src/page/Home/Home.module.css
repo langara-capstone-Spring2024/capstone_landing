@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    z-index: 100;
+    z-index: 1;
     background-color: var(--brand-medium);
     color: var(--white-primary);
     border: none;
@@ -27,5 +27,9 @@
     border-radius: 8px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .proposalBtnFixed:hover{
+    background-color: #c13c27;
   }
 }

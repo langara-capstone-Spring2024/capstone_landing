@@ -1,0 +1,38 @@
+.imageContainer {
+  border-radius: 50%;
+  width: 84px;
+  height: 84px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.teamFood {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.teamMarqueeContainer {
+  padding: 50px 36px;
+  border-radius: 16px;
+  width: fit-content;
+  margin-top: 40px;
+  margin-right: 10px;
+  width: 500px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descriptonContainer {
+  width: 80%;
+}
+
+.roleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
