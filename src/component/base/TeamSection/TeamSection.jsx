@@ -59,7 +59,7 @@ const TeamSection = (props) => {
         />
         <TeamProfile
           imageSrc={Yuki}
-          name="Hoi Yan Cheng"
+          name="Yuki Cheng"
           position="Full Stack Developer"
           linkedInUrl="https://www.linkedin.com/in/hoi-yan-cheng/"
           websiteUrl=""
@@ -105,7 +105,7 @@ const TeamSection = (props) => {
             imageSrc={YukiRound}
             bgColor="#FFC42B"
             textColor="var(--primary)"
-            description="Spicy Food is always the BEST! 🌶️🌶️🌶️"
+            description="Spicy food is always the BEST! 🌶️ 🔥"
             firstName="Yuki"
             lastName="Cheng"
             role="Full Stack Developer"
@@ -114,7 +114,7 @@ const TeamSection = (props) => {
             imageSrc={YuhwanRound}
             bgColor="#3785F9"
             textColor="var(--white-primary)"
-            description="Hotpot, the perfect food for socializing and dining simultaneously 🍲"
+            description="Hotpot, the perfect food for socializing and dining simultaneously 🥘🥘"
             firstName="Yuhwan"
             lastName="Ban"
             role="Full Stack Developer"
@@ -123,7 +123,7 @@ const TeamSection = (props) => {
             imageSrc={MonicaRound}
             bgColor="#C0E9C9"
             textColor="var(--primary)"
-            description="Love places with good coffee, tea, and desserts! 🍰"
+            description="Love places with good coffee, tea, and desserts! ☕️ 🫖 🍰"
             firstName="Monica"
             lastName="Esquivel"
             role="UX Lead"
@@ -132,7 +132,7 @@ const TeamSection = (props) => {
             imageSrc={JBRound}
             bgColor="#CDB0D7"
             textColor="var(--primary)"
-            description="I love all food, I love eating 😋"
+            description="Why not, Doughnut 🍩 🍩"
             firstName="JB"
             lastName="Hernandez"
             role="UI Lead"
@@ -141,7 +141,7 @@ const TeamSection = (props) => {
             imageSrc={GuiaRound}
             bgColor="#F75252"
             textColor="var(--primary)"
-            description="Mac and Cheese is my favourite! 🧀"
+            description="Pizza time is always a good time 😂"
             firstName="Guia"
             lastName="Chavez"
             role="Full Stack Developer | PM"
@@ -150,7 +150,7 @@ const TeamSection = (props) => {
             imageSrc={GillianRound}
             bgColor="#494949"
             textColor="var(--white-primary)"
-            description="Cannot resist noodle, any kind! 🍜"
+            description="Can't go wrong with wings 😎✌🏼"
             firstName="Gillian"
             lastName="Kwok"
             role="UI/UX Designer"
@@ -169,7 +169,7 @@ const TeamSection = (props) => {
             imageSrc={CassieRound}
             bgColor="#CBFF5E"
             textColor="var(--primary)"
-            description="Taco is the answer, regardless of the question!🌮"
+            description="Taco is the answer, regardless of the question! 🌮🌮"
             firstName="Cassie"
             lastName="Hsieh"
             role="UI/UX Designer"

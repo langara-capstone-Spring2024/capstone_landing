@@ -5,6 +5,7 @@ import Typography from "../Typography/Typography";
 const Header = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768);
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,9 +35,55 @@ const Header = (props) => {
     document.body.style.overflow = "";
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["home", "features", "team", "contact"];
+      const bottomThreshold = 50;
+
+      const nearBottom =
+        window.innerHeight + window.scrollY >=
+        document.body.offsetHeight - bottomThreshold;
+
+      if (nearBottom) {
+        setActiveSection("contact");
+      } else {
+        const currentSection = sections.find((section) => {
+          const element = document.getElementById(section);
+          if (element) {
+            return (
+              window.scrollY >= element.offsetTop - bottomThreshold &&
+              window.scrollY <
+                element.offsetTop + element.offsetHeight - bottomThreshold
+            );
+          }
+          return false;
+        });
+
+        if (currentSection) {
+          setActiveSection(currentSection);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [activeSection]); 
+  
   return (
     <div className={styles.header}>
-      <img src="/assets/logo.png" alt="logo" className={styles.logo} />
+      <img
+        src="/assets/logo.png"
+        alt="logo"
+        className={styles.logo}
+        onClick={scrollToTop}
+      />
       {isMobileView && (
         <div
           className={`${styles.hamburger} ${isMenuOpen ? styles.active : ""}`}
@@ -50,30 +97,70 @@ const Header = (props) => {
       <nav
         className={`${styles.navigation} ${isMenuOpen ? styles.menuOpen : ""}`}
       >
-        <div className={styles.navItem}>
+        <div
+          className={`${styles.navItem} ${
+            activeSection === "home" ? styles.active : ""
+          }`}
+        >
           <Typography variant="bodySm" color="link-gray">
-            <a href="#home" onClick={closeMenu}>
+            <a
+              href="#home"
+              onClick={() => {
+                closeMenu();
+                setActiveSection("home");
+              }}
+            >
               Home
             </a>
           </Typography>
         </div>
-        <div className={styles.navItem}>
+        <div
+          className={`${styles.navItem} ${
+            activeSection === "features" ? styles.active : ""
+          }`}
+        >
           <Typography variant="bodySm" color="link-gray">
-            <a href="#features" onClick={closeMenu}>
+            <a
+              href="#features"
+              onClick={() => {
+                closeMenu();
+                setActiveSection("features");
+              }}
+            >
               Features
             </a>
           </Typography>
         </div>
-        <div className={styles.navItem}>
+        <div
+          className={`${styles.navItem} ${
+            activeSection === "team" ? styles.active : ""
+          }`}
+        >
           <Typography variant="bodySm" color="white-primary">
-            <a href="#team" onClick={closeMenu}>
+            <a
+              href="#team"
+              onClick={() => {
+                closeMenu();
+                setActiveSection("team");
+              }}
+            >
               The Team
             </a>
           </Typography>
         </div>
-        <div className={styles.navItem}>
+        <div
+          className={`${styles.navItem} ${
+            activeSection === "contact" ? styles.active : ""
+          }`}
+        >
           <Typography variant="bodySm" color="link-gray">
-            <a href="#contact" onClick={closeMenu}>
+            <a
+              href="#contact"
+              onClick={() => {
+                closeMenu();
+                setActiveSection("contact");
+              }}
+            >
               Contact Us
             </a>
           </Typography>

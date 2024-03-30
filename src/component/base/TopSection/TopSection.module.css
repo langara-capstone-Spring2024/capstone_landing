@@ -13,6 +13,10 @@
   height: fit-content;
 }
 
+.topContainer img {
+  margin-bottom: -1rem;
+}
+
 @media (max-width: 768px) {
   .titleContainer {
     padding: 5%;
