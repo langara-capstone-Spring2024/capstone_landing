@@ -4,7 +4,7 @@
   height: 84px;
 }
 
-img {
+.teamMarqueeContainer img {
   object-fit: cover;
 }
 
@@ -45,7 +45,7 @@ img {
 @media (max-width: 768px) {
   .teamMarqueeContainer {
     width: 245px;
-    height: 364px;
+    height: 330px;
 
   }
 
@@ -57,5 +57,11 @@ img {
 
   .descriptionContainer {
     width: 100%;
+  }
+
+  .teamMarqueeContainer img,
+  .imageContainer {
+    width: 60px;
+    height: 60px;
   }
 }
