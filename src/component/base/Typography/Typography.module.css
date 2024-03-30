@@ -1,0 +1,102 @@
+.title-1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 66px;
+}
+
+.title-2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.title-3 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.bodylg {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.bodySm {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+}
+
+.bodySm-bold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.bodyXs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.positionBody {
+  font-family: "TrashHand", Courier, monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+@media (max-width: 768px) {
+  .title-1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+
+  .bodylg {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
+
+.black {
+  color: var(--black);
+}
+
+.white-primary {
+  color: var(--white-primary);
+}
+
+.white-secondary {
+  color: var(--white-secondary);
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.brand-medium {
+  color: var(--brand-medium);
+}
+
+.neutrals {
+  color: var(--neutrals);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.light-gray {
+  color: var(--light-gray);
+}
+
+.link-gray {
+  color: var(--link-gray);
+}

@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--brand-medium);
+  padding: 60px 80px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 60px 5%;
+  }
+}

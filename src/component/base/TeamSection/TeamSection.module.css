@@ -1,0 +1,29 @@
+.teamTitle {
+  text-align: center;
+  display: grid;
+  gap: 11px;
+  margin-bottom: 40px;
+  padding-top: 5%;
+  padding: 30px 5% 0 5%;
+}
+
+.allMembersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 32px 20% 60px 20%;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.marqueeContainer {
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .allMembersContainer {
+    padding: 32px 10% 60px 10%;
+  }
+}

@@ -1,0 +1,20 @@
+.titleContainer {
+  text-align: center;
+  padding: 60px;
+  background-color: var(--brand-medium);
+}
+
+.subtitle {
+  margin-top: 10px;
+}
+
+.topContainer {
+  background-color: var(--brand-medium);
+  height: fit-content;
+}
+
+@media (max-width: 768px) {
+  .titleContainer {
+    padding: 5%;
+  }
+}

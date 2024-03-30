@@ -1,0 +1,66 @@
+.imageContainer {
+  border-radius: 50%;
+  width: 84px;
+  height: 84px;
+}
+
+.teamMarqueeContainer img {
+  object-fit: cover;
+}
+
+.teamFood {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.teamMarqueeContainer {
+  padding: 40px 36px;
+  border-radius: 16px;
+  width: fit-content;
+  margin-top: 40px;
+  margin-right: 20px;
+  width: 500px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.teamMarqueeContainer:hover {
+  transform: rotate(3deg);
+}
+
+.descriptionContainer {
+  width: 80%;
+}
+
+.roleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .teamMarqueeContainer {
+    width: 249px;
+    height: 330px;
+  }
+
+  .teamFood {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .descriptionContainer {
+    width: 100%;
+  }
+
+  .teamMarqueeContainer img,
+  .imageContainer {
+    width: 60px;
+    height: 60px;
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  padding: 0;
+}
+
+.proposalBtnFixed {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .proposalBtnFixed {
+    position: fixed;
+    bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 2;
+    background-color: var(--brand-medium);
+    color: var(--white-primary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 38px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .proposalBtnFixed.hidden {
+    visibility: hidden;
+    pointer-events: none;
+    transition: visibility 0s 0.1s, opacity 0.1s ease-in-out;
+  }
+
+  .proposalBtnFixed:hover {
+    background-color: #c13c27;
+  }
+}

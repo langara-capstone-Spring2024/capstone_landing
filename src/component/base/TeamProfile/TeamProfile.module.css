@@ -1,0 +1,16 @@
+.memberContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  gap: 5px;
+}
+
+.positionContainer {
+    background-color: var(--yellow);
+  }
