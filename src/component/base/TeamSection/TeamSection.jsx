@@ -130,7 +130,7 @@ const TeamSection = (props) => {
           />
           <TeamMarquee
             imageSrc={JBRound}
-            bgColor="#CDB0D7"
+            bgColor="#FFADC6"
             textColor="var(--primary)"
             description="Why not, Doughnut 🍩 🍩"
             firstName="JB"
@@ -167,7 +167,7 @@ const TeamSection = (props) => {
           />
           <TeamMarquee
             imageSrc={CassieRound}
-            bgColor="#CBFF5E"
+            bgColor="#B3F281"
             textColor="var(--primary)"
             description="Taco is the answer, regardless of the question! 🌮🌮"
             firstName="Cassie"
