@@ -33,7 +33,7 @@
 }
 
 .descriptionContainer {
-  width: 80%;
+  width: 90%;
 }
 
 .roleContainer {
@@ -44,8 +44,9 @@
 
 @media (max-width: 768px) {
   .teamMarqueeContainer {
-    width: 249px;
+    width: 245px;
     height: 330px;
+
   }
 
   .teamFood {
