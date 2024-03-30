@@ -1,6 +1,6 @@
 .contactContainer {
   background-color: var(--accent-medium);
-  padding: 80px;
+  padding: 80px 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@
   border-radius: 40px;
   background-color: var(--white-primary);
   text-align: center;
-  max-width: 910px;
+  max-width: 1200px;
 }
 
 .formDataContainer {
@@ -57,9 +57,11 @@
     min-width: 361px;
     align-items: center;
   }
+
   .formContainer {
     padding: 32px;
   }
+
   .emailContainer,
   .nameContainer {
     width: 100%;

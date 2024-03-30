@@ -6,6 +6,11 @@
   display: none;
 }
 
+.sectionContainer:target {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
 @media (max-width: 768px) {
   .proposalBtnFixed {
     position: fixed;
