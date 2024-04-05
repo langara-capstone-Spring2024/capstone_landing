@@ -24,6 +24,10 @@
 
 @media (max-width: 768px) {
   .allMembersContainer {
-    padding: 32px 10% 60px 10%;
+    padding: 0px 10% 60px 10%;
+  }
+
+  .teamTitle {
+    padding: 40px 5% 0 5%;
   }
 }
