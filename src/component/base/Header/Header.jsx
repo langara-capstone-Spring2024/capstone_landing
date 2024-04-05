@@ -5,7 +5,7 @@ import Typography from "../Typography/Typography";
 const Header = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768);
-  const [activeSection, setActiveSection] = useState("");
+  const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
     const handleResize = () => {
@@ -74,8 +74,13 @@ const Header = (props) => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [activeSection]); 
-  
+  }, [activeSection]);
+
+  const openPdf = () => {
+    const pdfPath = "/assets/nom-proposal.pdf";
+    window.open(pdfPath, "_blank");
+  };
+
   return (
     <div className={styles.header}>
       <img
@@ -167,7 +172,7 @@ const Header = (props) => {
         </div>
         <div className={styles.navItem}>
           <div className={styles.proposalBtnFixed}>
-            <button className={styles.proposalBtn} onClick={() => {}}>
+            <button className={styles.proposalBtn} onClick={openPdf}>
               <Typography variant="bodySm" color="white">
                 View Proposal
               </Typography>

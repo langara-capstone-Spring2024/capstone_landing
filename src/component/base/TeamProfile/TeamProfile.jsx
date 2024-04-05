@@ -13,7 +13,7 @@ const TeamProfile = ({
 }) => {
   return (
     <div className={styles.memberContainer}>
-      <div>
+      <div className={styles.memberImgContainer}>
         <img src={imageSrc} alt={name} />
       </div>
       <div className={styles.positionContainer}>

@@ -4,22 +4,23 @@ import Typography from "../Typography/Typography";
 import featureImg from "/assets/featureImg.png";
 import featureImg1 from "/assets/featureImg-1.png";
 import featureImg2 from "/assets/featureImg-2.png";
+import featureImg3 from "/assets/featureImg-3.png";
 
 const FeatureSection = (props) => {
   return (
     <div className={styles.featureContainer}>
       <div className={styles.featureText}>
         <div className={styles.featureTitle}>
-          <Typography variant="title-2">Set targeted deals</Typography>
+          <Typography variant="title-2">Set time-targeted deals</Typography>
         </div>
         <Typography variant="bodySm" color="secondary">
-          Create irresistible offers for specific times of the day, attracting
-          new customers and filling those empty seats
+          Create irresistible offers for specific times of the day. Attract new
+          customers and fill in those empty seats!
         </Typography>
       </div>
       <div className={styles.featureDisplay}>
         <div>
-          <img src={featureImg} className={styles.image} />
+          <img src={featureImg3} className={styles.image} />
         </div>
         <img src={featureImg2} className={styles.image} />
       </div>
@@ -30,8 +31,8 @@ const FeatureSection = (props) => {
           </Typography>
         </div>
         <Typography variant="bodySm" color="secondary">
-          Use our ad-maker with customizable templates and AI-assisted ad text
-          generator to create attractive in-app banners.
+          Use our ad-maker with customizable templates and an AI-assisted ad
+          text generator to create attractive and on-brand in-app banners.
         </Typography>
       </div>
       <div className={styles.featureDisplay}>

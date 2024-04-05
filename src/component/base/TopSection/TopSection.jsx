@@ -15,13 +15,13 @@ const TopSection = (props) => {
         </Typography>
         <div className={styles.subtitle}>
           <Typography variant="bodylg" color="white-secondary">
-            Tired of empty seats during off-peak hours?
+            Want to boost your restaurant’s business during slow hours?
           </Typography>
           <Typography variant="bodylg" color="white-secondary">
-            nom! helps restaurants like yours maximize revenue by offering
+            nom! can help you by offering time-based promos to deal-savvy
           </Typography>
           <Typography variant="bodylg" color="white-secondary">
-            time-based deals to hungry customers.
+            customers
           </Typography>
         </div>
       </div>
