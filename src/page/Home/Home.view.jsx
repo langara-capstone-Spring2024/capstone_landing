@@ -32,6 +32,11 @@ const HomeView = (props) => {
     };
   }, []);
 
+  const openPdf = () => {
+    const pdfPath = "/assets/nom-proposal.pdf";
+    window.open(pdfPath, "_blank");
+  };
+
   return (
     <div>
       <Header />
@@ -39,7 +44,7 @@ const HomeView = (props) => {
         className={`${styles.proposalBtnFixed} ${
           !isVisible ? styles.hidden : ""
         }`}
-        onClick={() => {}}
+        onClick={openPdf}
         style={{ opacity: isVisible ? 1 : 0, transition: "opacity 0.5s" }}
       >
         <Typography variant="bodySm" color="white">

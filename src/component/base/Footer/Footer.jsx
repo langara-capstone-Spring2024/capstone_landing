@@ -7,7 +7,7 @@ const Footer = (props) => {
     <div className={styles.footer}>
       <div className="footerCredit">
         <Typography variant="bodySm-bold" color="white-primary">
-          © 2024, Team nom!
+          © Nom! 2024
         </Typography>
       </div>
       <div className="footerCredit">

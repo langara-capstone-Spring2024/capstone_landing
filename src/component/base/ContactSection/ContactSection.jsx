@@ -9,7 +9,6 @@ const ContactSection = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Form submitted with:", { email, name });
-    window.scrollTo(0, 0);
     setEmail("");
     setName("");
   };
@@ -47,7 +46,7 @@ const ContactSection = () => {
           </div>
           <button type="submit" className={styles.btnContainer}>
             <Typography variant="bodySm" color="white">
-              Send Message
+              Connect with us
             </Typography>
           </button>
         </form>
