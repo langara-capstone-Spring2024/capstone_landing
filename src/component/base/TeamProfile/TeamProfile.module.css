@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: row;
   text-decoration: underline;
+  text-decoration-color: var(--light-gray);
   gap: 5px;
 }
 
