@@ -42,24 +42,22 @@ const FeatureSection = (props) => {
       <div className={styles.featureText}>
         <div className={styles.featureTitle}>
           <Typography variant="title-2" color="primary">
-            Brand Experience For Every Palate
+            Brand Experience For All Tastes
           </Typography>
         </div>
         <div className={styles.featurePara}>
           <Typography variant="bodySm" color="secondary">
-            Customer will have a feast in their eyes, showcasing mouthwatering
-            photos and menus that make browsing a pleasure. We also capitalized
-            on custom elements with clear filters to help users find the best
-            promos for them.
+            Customers will have feast with their eyes with our showcase of
+            mouthwatering photos and menus that make browsing restaurants’
+            profiles a pleasure. We also capitalized on custom elements with
+            clear filters to help users find the best promos for them.
           </Typography>
         </div>
 
         <Typography variant="bodySm" color="secondary">
-          Merchants success is our priority. Our UI is designed with you in
-          mind. Strategically placed controls and clear data visualization allow
-          you to manage orders efficiently, update menus with ease, and track
-          performance at a glance. Focus on what matters most - creating amazing
-          dishes - while our UI takes care of the rest.
+          For merchants, we strategically placed controls and clear data
+          visualization that allow easy and efficient promo creation, menu
+          management, and performance tracking.
         </Typography>
       </div>
     </div>
