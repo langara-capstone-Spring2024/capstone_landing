@@ -13,7 +13,34 @@
   position: absolute;
 }
 
-.videoContainer img {
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  height: 15%;
+  z-index: 9;
+}
+
+.videoThumbContainer:hover .icon {
+  color: var(--white-primary);
+}
+
+.videoThumbnail {
   width: 100%;
-  
+  filter: brightness(70%);
+  transition: filter 0.3s ease;
+}
+
+.videoThumbContainer:hover .videoThumbnail {
+  filter: brightness(100%);
+  cursor: "pointer";
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
 }
