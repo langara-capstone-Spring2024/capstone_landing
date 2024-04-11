@@ -16,7 +16,7 @@ const ContactSection = () => {
   return (
     <div className={styles.contactContainer}>
       <div className={styles.formContainer}>
-        <Typography variant="title-2">Connect With Us!!</Typography>
+        <Typography variant="title-2">Request Demo!!</Typography>
         <form onSubmit={handleSubmit} className={styles.formDataContainer}>
           <div className={styles.emailContainer}>
             <label htmlFor="email">
@@ -46,7 +46,7 @@ const ContactSection = () => {
           </div>
           <button type="submit" className={styles.btnContainer}>
             <Typography variant="bodySm" color="white">
-              Connect with us
+              Request Demo
             </Typography>
           </button>
         </form>
