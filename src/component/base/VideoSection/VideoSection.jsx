@@ -4,7 +4,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const VideoSection = (props) => {
   const [isVideo, setIsVideo] = useState(false);
-  const videoSrc = "https://www.youtube.com/embed/9B5CqoOaCTM?rel=0&autoplay=1";
+  const videoSrc = "https://www.youtube.com/embed/CYEx8KzWk_4?rel=0&autoplay=1";
 
   const handleVideoPlay = () => {
     setIsVideo(true); // When the thumbnail is clicked, set isVideo to true to display the video
